@@ -6,28 +6,20 @@ using System.Web.Mvc;
 
 namespace CSMVCMSSQL.Controllers
 {
-    public class UserController : Controller
+    public class NationController : Controller
     {
-        // GET: User
-        public ActionResult User_Index()
+        // GET: Nation
+        public ActionResult Nation_Index()
         {
             return View();
         }
-
-        public ActionResult User_Create()
+        public ActionResult Nation_Create()
         {
             return View();
         }
-
-        public ActionResult User_Update()
+        public ActionResult Nation_Delete()
         {
             return View();
         }
-
-        public ActionResult User_Delete()
-        {
-            return View();
-        }
-
     }
 }
